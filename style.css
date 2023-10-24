@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #250057;
+    
+
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background: #fff;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box img{
+    padding-right: 5px;
+    cursor: pointer;
+}
+.box input{
+    width: 230px;
+    outline: 0;
+    border: 0;
+    padding: 5px;
+    font-size: large;
+
+}
